@@ -25,10 +25,12 @@
 
 .nutrition-table td:nth-child(1) {
 	color: var(--stone-600);
+	padding-left: var(--spacing-400);
 }
 
 .nutrition-table td:nth-child(2) {
 	color: var(--brown-800);
+	padding-right: var(--spacing-500);
 }
 
 .last-row td {
