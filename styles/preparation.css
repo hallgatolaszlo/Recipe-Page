@@ -1,0 +1,34 @@
+.preparation {
+	/* Layout */
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-200);
+	padding: var(--spacing-300);
+
+	/* Styles */
+	border-radius: 12px;
+	background-color: var(--rose-50);
+}
+
+.preparation-time {
+	color: var(--rose-800);
+}
+
+.preparation-list {
+	/* Layout */
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-100);
+	padding-left: var(--spacing-300);
+
+	/* Styles */
+	list-style-type: disc;
+	list-style-position: outside;
+	color: var(--rose-800);
+}
+
+.preparation-list > li > span {
+	margin-left: var(--spacing-200);
+	color: var(--stone-600);
+	display: block;
+}

@@ -1,0 +1,32 @@
+.instructions {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-300);
+}
+
+.instructions-title {
+	color: var(--brown-800);
+}
+
+.instructions-list {
+	/* Layout */
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-100);
+	padding-left: var(--spacing-300);
+
+	/* Styles */
+	list-style-position: outside;
+	color: var(--brown-800);
+}
+
+.instructions-list > li {
+	font-weight: bold;
+}
+
+.instructions-list > li > span {
+	color: var(--stone-600);
+	font-weight: normal;
+	margin-left: var(--spacing-200);
+	display: block;
+}

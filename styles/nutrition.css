@@ -1,0 +1,36 @@
+.nutrition {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-300);
+}
+
+.nutrition-title {
+	color: var(--brown-800);
+}
+
+.nutrition-description {
+	color: var(--stone-600);
+}
+
+.nutrition-table {
+	border-collapse: collapse;
+	margin-bottom: calc(var(--spacing-150) * -1);
+	margin-top: calc(var(--spacing-150) * -1);
+}
+
+.nutrition-table td {
+	border-bottom: 2px solid var(--stone-150);
+	padding: var(--spacing-150);
+}
+
+.nutrition-table td:nth-child(1) {
+	color: var(--stone-600);
+}
+
+.nutrition-table td:nth-child(2) {
+	color: var(--brown-800);
+}
+
+.last-row td {
+	border-bottom: none;
+}

@@ -1,0 +1,28 @@
+.ingredients {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-300);
+}
+
+.ingredients-title {
+	color: var(--brown-800);
+}
+
+.ingredients-list {
+	/* Layout */
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-100);
+	padding-left: var(--spacing-300);
+
+	/* Styles */
+	list-style-type: disc;
+	list-style-position: outside;
+	color: var(--brown-800);
+}
+
+.ingredients-list > li > span {
+	margin-left: var(--spacing-200);
+	color: var(--stone-600);
+	display: block;
+}

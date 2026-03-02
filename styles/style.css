@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@import "./card.css";
+@import "./preparation.css";
+@import "./ingredients.css";
+@import "./instructions.css";
+@import "./nutrition.css";
+
+:root {
+	/* Colors */
+	--rose-50: #fff7fb;
+	--rose-800: #7a284e;
+	--stone-100: #f3e5d7;
+	--stone-150: #e3ddd7;
+	--stone-600: #5f564d;
+	--stone-900: #312e2c;
+	--brown-800: #854632;
+	--white: #ffffff;
+
+	/* Typography */
+	--outfit: "Outfit", sans-serif;
+	--young-serif: "Young Serif", serif;
+
+	/* Spacings */
+	--spacing-100: 8px;
+	--spacing-150: 12px;
+	--spacing-200: 16px;
+	--spacing-300: 24px;
+	--spacing-400: 32px;
+	--spacing-500: 40px;
+	--spacing-600: 48px;
+	--spacing-1600: 128px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--stone-100);
+	padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		padding: var(--spacing-1600) var(--spacing-600);
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	body {
+		padding: var(--spacing-1600) var(--spacing-600);
+	}
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+.young-serif-large {
+	font-family: var(--young-serif);
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0px;
+	font-size: 40px;
+}
+
+.young-serif-normal {
+	font-family: var(--young-serif);
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0px;
+	font-size: 28px;
+}
+
+.outfit-semibold {
+	font-family: var(--outfit);
+	font-weight: 600;
+	line-height: 100%;
+	letter-spacing: 0px;
+	font-size: 20px;
+}
+
+.outfit-regular {
+	font-family: var(--outfit);
+	font-weight: 400;
+	line-height: 150%;
+	letter-spacing: 0px;
+	font-size: 16px;
+}
+
+.outfit-bold {
+	font-family: var(--outfit);
+	font-weight: bold;
+	line-height: 150%;
+	letter-spacing: 0px;
+	font-size: 16px;
+}
+
+.line {
+	height: 2px;
+	background-color: var(--stone-100);
+	border: none;
+}
