@@ -1,7 +1,7 @@
 .card {
 	/* Size */
 	width: 100%;
-	max-width: 768px;
+	max-width: 736px;
 
 	/* Layout */
 	display: flex;
